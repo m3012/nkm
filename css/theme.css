@@ -1,0 +1,78 @@
+body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.navbar {
+  border: 0px;
+}
+
+.navbar-header {
+  padding-right: 15px;
+}
+
+.navbar-default {
+  background-color: inherit;
+}
+
+#myNavbar .navbar-nav > .active > a:hover,
+#myNavbar .navbar-nav a:hover {
+  color: #89a4d4;
+}
+
+#myNavbar .navbar-nav > .active > a, 
+#myNavbar .navbar-nav a {
+  color: #29388b;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.parallax {
+  background-image: url("../img/NKM_napa1.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxText {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+.textXXL {
+  font-size: xx-large;  
+  text-align: center;
+}
+
+.textXL {
+  font-size: x-large;  
+  text-align: center;
+}
+
+#parallaxTextBtn {
+  text-align: right;
+  padding-right: 50px;
+}
+
+#partners {
+  background-color: #fff;
+}
+
+.closure {
+  background-image: url("../img/montaza-kuhinjska-napa-valovi2.png");
+  min-height: 246px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.closure p {
+  font-size: large;
+  padding-right: 20px;
+}
+
+.closure p span {
+  color: #337ab7;
+}
